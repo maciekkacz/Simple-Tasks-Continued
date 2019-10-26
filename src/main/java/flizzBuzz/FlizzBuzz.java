@@ -1,3 +1,5 @@
+package flizzBuzz;
+
 public class FlizzBuzz {
     public static void main(String[] args) {
         int giveMyNumer = 100;
