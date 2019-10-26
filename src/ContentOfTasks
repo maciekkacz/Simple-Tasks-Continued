@@ -3,3 +3,9 @@ wyświetli liczbę i słowo "Buzz", a podzielnych zarówno przez 3 i 5 wyświetl
 Pozostałe liczby nie powinny być wyświetlane. Zakładamy, że pracujemy na liczbach z przedziału <1; 100>.
 2. Napisz program, w którym użytkownik podaje liczbę całkowitą, a następnie w konsoli rysowany jest romb,
 którego boki składają się z tylu gwiazdek co liczba zadana w programie.Przykładowy wynik dla liczby 10:
+3. Zdefiniuj klasę Barman, która posiada metodę createDrink która tworzy drinka z dowolną ilością składników podanych
+przez użytkownika. W wyniku metoda powinna zwracać obiekt typu Drink z informacjami o składnikach danego drinka.
+Każdy składnik w klasie Drink powinien być reprezentowany przez klasę Ingredient, która przechowuje nazwę oraz ilość
+danego składnika. Dane wczytaj od użytkownika korzystającego z aplikacji.
+Klasa Barman powinna także posiadać metodę printDrink, która przyjmuje jako parametr obiekt typu Drink i wyświetla
+o nim informacje.
