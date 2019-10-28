@@ -1,10 +1,10 @@
 package playlista;
 
-public class Song {
+public class Move {
     private String name;
     private int lenght;
 
-    public Song(String name, int lenght) {
+    public Move(String name, int lenght) {
         this.name = name;
         this.lenght = lenght;
     }
