@@ -11,7 +11,7 @@ public class Game {
 
     public void program() {
         int option = NEXT_GAME;
-        if (option != END_GAME) {
+        while (option != END_GAME) { // change if on while
             play();
             showOption();
             option = scanner.nextInt();
@@ -21,8 +21,8 @@ public class Game {
     }
 
     private void showOption() {
-        System.out.println("NEXT" + NEXT_GAME);
-        System.out.println("END" + END_GAME);
+        System.out.println("NEXT " + NEXT_GAME);
+        System.out.println("END " + END_GAME);
     }
 
     private void play() {

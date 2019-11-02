@@ -22,7 +22,7 @@ public class Starter {
                 display += nextChar;
             else if (nextChar == ' ')
                 display += ' ';
-            else display += ' ';
+            else display += "*"; //change " " on "*"
         }
         this.guessWordDisplay = display;
     }
